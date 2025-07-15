@@ -1,12 +1,12 @@
 {
-  "name": "developersrede/erede-php",
+  "name": "devhotsales/erede-php",
   "version": "5.2.1",
   "description": "e.Rede integration SDK",
   "minimum-stability": "stable",
   "license": "MIT",
   "type": "library",
   "require": {
-    "php": "^8.1",
+    "php": "^8.0",
     "ext-curl": "*",
     "ext-json": "*",
     "psr/log": "*",
