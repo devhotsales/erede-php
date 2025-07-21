@@ -13,9 +13,6 @@ class eRede
     const VERSION = '5.1.2';
     const USER_AGENT = 'eRede/' . eRede::VERSION . ' (PHP %s; Store %s; %s %s)';
 
-
-    private $teste;
-
     /**
      * @var Store
      */
