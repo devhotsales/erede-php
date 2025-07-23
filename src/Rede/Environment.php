@@ -7,7 +7,7 @@ use stdClass;
 class Environment implements RedeSerializable
 {
     const PRODUCTION = 'https://api.userede.com.br/erede';
-    const SANDBOX = 'https://api.userede.com.br/desenvolvedores';
+    const SANDBOX = ' https://sandbox-erede.useredecloud.com.br';
     const VERSION = 'v1';
 
     /**
