@@ -879,9 +879,7 @@ class Transaction implements RedeSerializable, RedeUnserializable
     public function setDataPix(DateTime $dataExpires)
     {
         $this->dataPix = [
-        'qrCode' => [
             'dateTimeExpiration' => $dataExpires->format('Y-m-d\TH:i:s'),
-        ],
         ];
     }
 
